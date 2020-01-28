@@ -3,6 +3,8 @@
 export(cyl_plot)
 export(cyl_sum)
 export(diamonds_summary2)
+export(group_summary)
+export(hexbin)
 importFrom(dplyr,"%>%")
 importFrom(dplyr,group_by)
 importFrom(dplyr,n)

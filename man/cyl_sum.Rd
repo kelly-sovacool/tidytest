@@ -4,7 +4,10 @@
 \alias{cyl_sum}
 \title{Summarize the mtcars mpg & cylinder columns}
 \usage{
-cyl_sum()
+cyl_sum(x)
+}
+\arguments{
+\item{x}{variable to average}
 }
 \value{
 a table summarizing columns 'cyl' and 'mpg'
