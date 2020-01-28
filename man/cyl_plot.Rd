@@ -2,16 +2,19 @@
 % Please edit documentation in R/cyl_plot.R
 \name{cyl_plot}
 \alias{cyl_plot}
-\title{Create a bar plot of the mtcars cylinder column}
+\title{Create a bar plot of a column in mtcars}
 \usage{
-cyl_plot()
+cyl_plot(col)
+}
+\arguments{
+\item{col}{the name of a column in mtcars}
 }
 \value{
 a bar plot
 }
 \description{
-Create a bar plot of the mtcars cylinder column
+Create a bar plot of a column in mtcars
 }
 \examples{
-cyl_plot()
+cyl_plot(cyl)
 }
