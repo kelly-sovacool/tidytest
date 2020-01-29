@@ -1,4 +1,5 @@
-mtcars <- data.frame(
+## code to prepare `data` dataset goes here
+data <- data.frame(
     mpg = c(21, 21, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.2),
     cyl = c(6, 6, 4, 6, 8, 6, 8, 4, 4, 6),
     disp = c(160, 160, 108, 258, 360, 225, 360, 146.7, 140.8, 167.6),
@@ -11,3 +12,5 @@ mtcars <- data.frame(
     gear = c(4, 4, 4, 3, 3, 3, 3, 4, 4, 4),
     carb = c(4, 4, 1, 1, 2, 1, 4, 2, 2, 4)
 )
+
+usethis::use_data(data)

@@ -5,14 +5,14 @@
 \title{Title
 Summarize by group}
 \usage{
-group_summary(df, grp, x)
+group_summary(df, x, ...)
 }
 \arguments{
 \item{df}{dataframe}
 
-\item{grp}{variable to group by}
-
 \item{x}{variable to take the min and max of}
+
+\item{grp}{variable to group by}
 }
 \value{
 a tibble
@@ -22,5 +22,5 @@ Title
 Summarize by group
 }
 \examples{
-group_summary(mtcars, cyl, mpg)
+group_summary(mtcars, mpg, cyl)
 }
